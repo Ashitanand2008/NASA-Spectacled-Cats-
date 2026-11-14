@@ -1,0 +1,26 @@
+region_id,region_name,extracted_r,extracted_g,extracted_b,matched_color,windspeed_mps,color_distance,confidence,grid_row,grid_col
+CELL_01,"Grid Cell (R0, C0)",93,97,126,Dark Magenta/Purple,38.0,85.64,Low / Potential Non-Data (Land/Cloud),0,0
+CELL_02,"Grid Cell (R0, C1)",96,99,138,Dark Magenta/Purple,38.0,87.87,Low / Potential Non-Data (Land/Cloud),0,1
+CELL_03,"Grid Cell (R0, C2)",69,71,119,Deep Blue,2.5,71.01,Moderate (Approximate),0,2
+CELL_04,"Grid Cell (R0, C3)",117,117,141,Dark Magenta/Purple,38.0,100.09,Low / Potential Non-Data (Land/Cloud),0,3
+CELL_05,"Grid Cell (R0, C4)",117,128,173,Cyan / Light Blue,7.0,104.12,Low / Potential Non-Data (Land/Cloud),0,4
+CELL_06,"Grid Cell (R1, C0)",70,85,148,Deep Blue,2.5,68.33,Moderate (Approximate),1,0
+CELL_07,"Grid Cell (R1, C1)",106,114,160,Dark Magenta/Purple,38.0,104.94,Low / Potential Non-Data (Land/Cloud),1,1
+CELL_08,"Grid Cell (R1, C2)",102,104,153,Dark Magenta/Purple,38.0,94.49,Low / Potential Non-Data (Land/Cloud),1,2
+CELL_09,"Grid Cell (R1, C3)",151,152,191,Cyan / Light Blue,7.0,118.09,Low / Potential Non-Data (Land/Cloud),1,3
+CELL_10,"Grid Cell (R1, C4)",89,99,148,Deep Blue,2.5,91.58,Low / Potential Non-Data (Land/Cloud),1,4
+CELL_11,"Grid Cell (R2, C0)",33,46,146,Deep Blue,2.5,20.02,High Confidence,2,0
+CELL_12,"Grid Cell (R2, C1)",95,101,155,Dark Magenta/Purple,38.0,94.93,Low / Potential Non-Data (Land/Cloud),2,1
+CELL_13,"Grid Cell (R2, C2)",115,123,178,Cyan / Light Blue,7.0,103.14,Low / Potential Non-Data (Land/Cloud),2,2
+CELL_14,"Grid Cell (R2, C3)",82,110,162,Deep Blue,2.5,93.53,Low / Potential Non-Data (Land/Cloud),2,3
+CELL_15,"Grid Cell (R2, C4)",51,52,111,Deep Blue,2.5,59.21,Moderate (Approximate),2,4
+CELL_16,"Grid Cell (R3, C0)",66,87,137,Deep Blue,2.5,69.67,Moderate (Approximate),3,0
+CELL_17,"Grid Cell (R3, C1)",91,105,136,Dark Magenta/Purple,38.0,94.88,Low / Potential Non-Data (Land/Cloud),3,1
+CELL_18,"Grid Cell (R3, C2)",81,103,145,Deep Blue,2.5,88.97,Low / Potential Non-Data (Land/Cloud),3,2
+CELL_19,"Grid Cell (R3, C3)",115,154,155,Cyan / Light Blue,7.0,102.6,Low / Potential Non-Data (Land/Cloud),3,3
+CELL_20,"Grid Cell (R3, C4)",114,138,164,Cyan / Light Blue,7.0,101.86,Low / Potential Non-Data (Land/Cloud),3,4
+CELL_21,"Grid Cell (R4, C0)",109,122,113,Dark Magenta/Purple,38.0,104.37,Low / Potential Non-Data (Land/Cloud),4,0
+CELL_22,"Grid Cell (R4, C1)",111,148,153,Cyan / Light Blue,7.0,102.73,Low / Potential Non-Data (Land/Cloud),4,1
+CELL_23,"Grid Cell (R4, C2)",131,161,147,Cyan / Light Blue,7.0,118.2,Low / Potential Non-Data (Land/Cloud),4,2
+CELL_24,"Grid Cell (R4, C3)",109,140,167,Cyan / Light Blue,7.0,95.76,Low / Potential Non-Data (Land/Cloud),4,3
+CELL_25,"Grid Cell (R4, C4)",121,151,155,Cyan / Light Blue,7.0,107.83,Low / Potential Non-Data (Land/Cloud),4,4
