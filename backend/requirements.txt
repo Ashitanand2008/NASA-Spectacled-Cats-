@@ -1,0 +1,174 @@
+#LAB 1 DOMAIN:Smart Campus Food Rescue System
+
+
+flag=True
+while(flag==True):
+  print("Welcome to the Smart Campus Food Rescue System!\n\n")
+  print("1.Task 1")
+  print("2.Task 2")
+  print("3.Task 3")
+  print("4.Task 4")
+  print("5.Task 5")
+  print("6.Exit")
+  choice=int(input("Enter your choice: "))
+
+  if(choice==1):
+    #task 1
+    print("TASK1 \n\n\n\n")
+    food_unit=4
+    total_food_price=0.0
+    std_name="Ashit Anand"
+    cod_mode=True
+    total_food_items=["Butter Chicken","Paneer Butter Masala","Dal Makhani","Veg Biryani"]
+    food_prices=(189.00,140.00,149.00,250.00)
+    for i in range(food_unit):
+      
+      total_food_price+=food_prices[i]
+    print("Food Units:",food_unit,"(Type:",type(food_unit),")")
+    print("Total Food Price:",total_food_price,"(Type:",type(total_food_price),")")
+    print("Student Name:",std_name,"(Type:",type(std_name),")")
+    print("Cash On Delivery:",cod_mode,"(Type:",type(cod_mode),")")
+    print("Each Food Items Ordered:",total_food_items,"(Type:",type(total_food_items),")")
+    print("Each Food Prices:",food_prices,"(Type:",type(food_prices),")")
+
+
+  elif(choice==2):
+  #task2
+    print("TASK2 \n\n\n\n")
+    canteen_A=40
+    canteen_B=20
+    reserved=15
+    price=200.00
+    discount=0.10
+    total_food=canteen_A+canteen_B
+    print("Total Food Available:",total_food)
+    print("Remaining Food:",total_food-reserved)
+    print("Total Revenue:",reserved*price*(1-discount))
+    print("Total Packs of 6:",total_food//6)
+    print("Remaining Food after Packs of 6:",total_food%6)
+    print("Square Food Rescued:",reserved**2)
+
+
+
+  elif(choice==3): 
+    #task3
+    print("TASK3 \n\n\n\n")
+    food_unit=10
+    Student_budget=1000.00
+    food_status=[True,False,True,True,False,True,True,False,True,True]
+    food_price=(189.00,140.00,149.00,250.00,120.00,180.00,200.00,160.00,130.00,170.00)
+    if(food_unit>0):
+      print("Food Accessed")
+
+    elif(food_unit<=0):
+      print("No Food Rescued")
+
+    for i in range(food_unit):
+      if(Student_budget>=food_price[i] and food_status[i] is not False):
+        Student_budget-=food_price[i]
+        if(Student_budget==food_price[i]):
+          print("Budget Exhausted")
+        print("Food Item",i+1,"Rescued")
+        print(Student_budget)
+      elif(Student_budget<food_price[i]):
+        print("Food Item",i+1,"Not Rescued")
+
+
+  elif(choice==4):
+    # TASK 4:
+    print("TASK4 \n\n\n\n")
+    available_food = 40
+    food_price = 200.00
+    food_rescued = 10
+
+    # += Addition Assignment
+    available_food += 20
+    print("Food Added to Inventory:", available_food)
+
+    # -= Subtraction Assignment
+    available_food -= food_rescued
+    print("Remaining Food:", available_food)
+
+    # *= Multiplication Assignment
+    food_price *= 1.10
+    print("Food Price After 10% Increase:", food_price)
+
+    # /= Division Assignment
+    food_price /= 2
+    print("Food Price After 50% Rescue Discount:", food_price)
+
+  
+  elif(choice==5):
+    #task5
+    import std_list as std
+    student_name=std.student_names
+    register_number=std.register_numbers
+    print("\n\n\n\nTASK5 \n\n\n\n")
+
+
+    print("ADMIN PORTAL\n-------------------")
+
+    available_food=int(input("Enter the number of available food items: "))
+    food_price=[]
+    food_name=[]
+    og_price=[]
+    dis_price=[]
+
+    for i in range(available_food):
+      food_name.append(input("Enter the name of the food item: "))
+      og_price.append(float(input("Enter the original price of the food item: ")))
+      dis_price.append(int(input("Enter the discounted price of the food item: ")))
+      print("Food Item",i+1,"Name:",food_name[i])
+      print("Food Item",i+1,"Price:",og_price[i])
+      print("Food Item",i+1,"Discounted Price:",dis_price[i])
+
+
+    print("Student Portal\n-------------------")
+
+    std_name=input("Enter your name: ").strip().upper()
+    reg_no=int(input("Enter your register number: "))
+    found=False
+
+    if(std_name in student_name and reg_no in  register_number):
+      found=True
+     
+    if(found is True):
+      print("Welcome",std_name)
+      meal_req=int(input("number of  meal required: "))
+      student_budget=int(input("Enter your budget: "))
+      for i in range(available_food):
+        if(meal_req==i+1 and student_budget>=dis_price[i]):
+          print("Food Item",meal_req,"Rescued")
+          print("Remaining Budget:",student_budget-dis_price[i])
+          break
+      else:
+        print("Food Item",meal_req,"Not Rescued")
+        
+      print("Student Name:",std_name)
+      print("Register Number:",reg_no)
+      print("Budget:",student_budget)  
+      print("Food Name:",food_name)
+      print("Food Price:",og_price)
+      print("Food Discounted Price:",dis_price)
+      print("-------------------")
+
+    else:
+      print("Invalid Name or Register Number")
+  elif(choice==6):
+    print("Thank you for using the Smart Campus Food Rescue System!")
+    flag=False
+  else:
+    print("Invalid Choice")
+  
+  
+  
+ 
+    
+  
+  
+  
+
+
+
+
+
