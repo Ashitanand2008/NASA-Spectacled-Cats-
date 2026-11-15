@@ -33,7 +33,7 @@ pipeline_lock = threading.Lock()
 # HOME PAGE
 @app.route("/")
 def home():
-    return redirect("/indexN.html")
+    return redirect("/index.html")
 
 
 # CHECK BACKEND CONNECTION
