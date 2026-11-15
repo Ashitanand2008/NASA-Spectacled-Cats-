@@ -1,8 +1,0 @@
-record_index,region_id,region_name,grid_row,grid_col,windspeed_mps,note,frequency_hz,category,confidence,tone_start_seconds,tone_duration_seconds,audio_included
-0,CELL_01,"Grid Cell (R0, C0)",0,0,2.5,C4,261.63,Very low,Moderate (Approximate),0.0,0.45,True
-1,CELL_02,"Grid Cell (R0, C1)",0,1,2.5,C4,261.63,Very low,Moderate (Approximate),0.53,0.45,True
-2,CELL_05,"Grid Cell (R0, C4)",0,4,7.0,D4,293.66,Low,Moderate (Approximate),1.06,0.45,True
-3,CELL_06,"Grid Cell (R1, C0)",1,0,2.5,C4,261.63,Very low,High Confidence,1.59,0.45,True
-4,CELL_21,"Grid Cell (R4, C0)",4,0,38.0,G5,783.99,Hurricane / Extreme (Extended),Low / Potential Non-Data (Land/Cloud),2.12,0.45,True
-5,CELL_EXT1,Severe Hurricane Core,2,2,26.5,D5,587.33,Storm (Extended),High Confidence,2.65,0.45,True
-6,CELL_EXT2,Eye Wall Peak Gust,2,3,32.0,E5,659.25,Violent Storm (Extended),High Confidence,3.18,0.45,True

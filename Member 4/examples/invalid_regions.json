@@ -1,8 +1,0 @@
-{
-  "unit": "km/h",
-  "_comment": "DISCLAIMER: This file contains deliberate errors for testing validation. Unit is 'km/h' instead of 'm/s', and region F has an out-of-range speed.",
-  "regions": [
-    {"region": "A", "speed": 4.5},
-    {"region": "F", "speed": 35.0}
-  ]
-}
