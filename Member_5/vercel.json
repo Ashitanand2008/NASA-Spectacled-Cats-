@@ -1,17 +1,9 @@
 
-
 {
   "rewrites": [
     {
       "source": "/",
       "destination": "/index.html"
-    }
-  ]
-}
-,
-    {
-      "src": "/(.*)",
-      "dest": "/app.py"
     }
   ]
 }
