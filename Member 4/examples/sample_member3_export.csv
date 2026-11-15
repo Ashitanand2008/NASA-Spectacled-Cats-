@@ -1,0 +1,8 @@
+region_id,region_name,extracted_r,extracted_g,extracted_b,matched_color,windspeed_mps,color_distance,confidence,grid_row,grid_col
+CELL_01,"Grid Cell (R0, C0)",46,41,112,Deep Blue,2.5,54.6,Moderate (Approximate),0,0
+CELL_02,"Grid Cell (R0, C1)",56,59,145,Deep Blue,2.5,43.38,Moderate (Approximate),0,1
+CELL_05,"Grid Cell (R0, C4)",71,116,214,Cyan / Light Blue,7.0,71.37,Moderate (Approximate),0,4
+CELL_06,"Grid Cell (R1, C0)",40,37,166,Deep Blue,2.5,21.1,High Confidence,1,0
+CELL_21,"Grid Cell (R4, C0)",103,109,95,Dark Magenta/Purple,38.0,96.31,Low / Potential Non-Data (Land/Cloud),4,0
+CELL_EXT1,"Severe Hurricane Core",245,130,20,Orange,26.5,12.5,High Confidence,2,2
+CELL_EXT2,"Eye Wall Peak Gust",225,30,30,Red,32.0,8.2,High Confidence,2,3
