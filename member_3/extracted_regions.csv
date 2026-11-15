@@ -1,0 +1,9 @@
+region_id,region_name,r,g,b
+REG_001,Calm Tropical Zone,22,45,155
+REG_002,Mid-Atlantic Breeze,48,175,210
+REG_003,Trade Wind Corridor,55,195,75
+REG_004,Developing Depression,240,225,35
+REG_005,Cyclone Outer Bands,235,120,25
+REG_006,Severe Hurricane Eye Wall,218,35,28
+REG_007,Extreme Gust Core,125,25,115
+REG_008,Continental Land / Cloud,128,128,128

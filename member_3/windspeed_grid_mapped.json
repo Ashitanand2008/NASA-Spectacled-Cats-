@@ -1,0 +1,693 @@
+{
+    "metadata": {
+        "source": "NASA Windspeed Image-to-Sound Converter - Member 3 Module",
+        "grid_cells_count": 25,
+        "statistics": {
+            "total_count": 25,
+            "min_windspeed_mps": 2.5,
+            "max_windspeed_mps": 38.0,
+            "avg_windspeed_mps": 15.48,
+            "reliable_count": 5,
+            "reliable_min_mps": 2.5,
+            "reliable_max_mps": 2.5,
+            "reliable_avg_mps": 2.5
+        }
+    },
+    "cells": [
+        {
+            "region_id": "CELL_01",
+            "region_name": "Grid Cell (R0, C0)",
+            "cell_index": 1,
+            "row": 0,
+            "col": 0,
+            "bbox": {
+                "x1": 0,
+                "y1": 0,
+                "x2": 204,
+                "y2": 102
+            },
+            "extracted_rgb": [
+                93,
+                97,
+                126
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 85.64,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_02",
+            "region_name": "Grid Cell (R0, C1)",
+            "cell_index": 2,
+            "row": 0,
+            "col": 1,
+            "bbox": {
+                "x1": 204,
+                "y1": 0,
+                "x2": 408,
+                "y2": 102
+            },
+            "extracted_rgb": [
+                96,
+                99,
+                138
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 87.87,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_03",
+            "region_name": "Grid Cell (R0, C2)",
+            "cell_index": 3,
+            "row": 0,
+            "col": 2,
+            "bbox": {
+                "x1": 408,
+                "y1": 0,
+                "x2": 612,
+                "y2": 102
+            },
+            "extracted_rgb": [
+                69,
+                71,
+                119
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 71.01,
+            "windspeed_mps": 2.5,
+            "confidence": "Moderate (Approximate)"
+        },
+        {
+            "region_id": "CELL_04",
+            "region_name": "Grid Cell (R0, C3)",
+            "cell_index": 4,
+            "row": 0,
+            "col": 3,
+            "bbox": {
+                "x1": 612,
+                "y1": 0,
+                "x2": 816,
+                "y2": 102
+            },
+            "extracted_rgb": [
+                117,
+                117,
+                141
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 100.09,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_05",
+            "region_name": "Grid Cell (R0, C4)",
+            "cell_index": 5,
+            "row": 0,
+            "col": 4,
+            "bbox": {
+                "x1": 816,
+                "y1": 0,
+                "x2": 1024,
+                "y2": 102
+            },
+            "extracted_rgb": [
+                117,
+                128,
+                173
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 104.12,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_06",
+            "region_name": "Grid Cell (R1, C0)",
+            "cell_index": 6,
+            "row": 1,
+            "col": 0,
+            "bbox": {
+                "x1": 0,
+                "y1": 102,
+                "x2": 204,
+                "y2": 204
+            },
+            "extracted_rgb": [
+                70,
+                85,
+                148
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 68.33,
+            "windspeed_mps": 2.5,
+            "confidence": "Moderate (Approximate)"
+        },
+        {
+            "region_id": "CELL_07",
+            "region_name": "Grid Cell (R1, C1)",
+            "cell_index": 7,
+            "row": 1,
+            "col": 1,
+            "bbox": {
+                "x1": 204,
+                "y1": 102,
+                "x2": 408,
+                "y2": 204
+            },
+            "extracted_rgb": [
+                106,
+                114,
+                160
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 104.94,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_08",
+            "region_name": "Grid Cell (R1, C2)",
+            "cell_index": 8,
+            "row": 1,
+            "col": 2,
+            "bbox": {
+                "x1": 408,
+                "y1": 102,
+                "x2": 612,
+                "y2": 204
+            },
+            "extracted_rgb": [
+                102,
+                104,
+                153
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 94.49,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_09",
+            "region_name": "Grid Cell (R1, C3)",
+            "cell_index": 9,
+            "row": 1,
+            "col": 3,
+            "bbox": {
+                "x1": 612,
+                "y1": 102,
+                "x2": 816,
+                "y2": 204
+            },
+            "extracted_rgb": [
+                151,
+                152,
+                191
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 118.09,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_10",
+            "region_name": "Grid Cell (R1, C4)",
+            "cell_index": 10,
+            "row": 1,
+            "col": 4,
+            "bbox": {
+                "x1": 816,
+                "y1": 102,
+                "x2": 1024,
+                "y2": 204
+            },
+            "extracted_rgb": [
+                89,
+                99,
+                148
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 91.58,
+            "windspeed_mps": 2.5,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_11",
+            "region_name": "Grid Cell (R2, C0)",
+            "cell_index": 11,
+            "row": 2,
+            "col": 0,
+            "bbox": {
+                "x1": 0,
+                "y1": 204,
+                "x2": 204,
+                "y2": 306
+            },
+            "extracted_rgb": [
+                33,
+                46,
+                146
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 20.02,
+            "windspeed_mps": 2.5,
+            "confidence": "High Confidence"
+        },
+        {
+            "region_id": "CELL_12",
+            "region_name": "Grid Cell (R2, C1)",
+            "cell_index": 12,
+            "row": 2,
+            "col": 1,
+            "bbox": {
+                "x1": 204,
+                "y1": 204,
+                "x2": 408,
+                "y2": 306
+            },
+            "extracted_rgb": [
+                95,
+                101,
+                155
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 94.93,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_13",
+            "region_name": "Grid Cell (R2, C2)",
+            "cell_index": 13,
+            "row": 2,
+            "col": 2,
+            "bbox": {
+                "x1": 408,
+                "y1": 204,
+                "x2": 612,
+                "y2": 306
+            },
+            "extracted_rgb": [
+                115,
+                123,
+                178
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 103.14,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_14",
+            "region_name": "Grid Cell (R2, C3)",
+            "cell_index": 14,
+            "row": 2,
+            "col": 3,
+            "bbox": {
+                "x1": 612,
+                "y1": 204,
+                "x2": 816,
+                "y2": 306
+            },
+            "extracted_rgb": [
+                82,
+                110,
+                162
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 93.53,
+            "windspeed_mps": 2.5,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_15",
+            "region_name": "Grid Cell (R2, C4)",
+            "cell_index": 15,
+            "row": 2,
+            "col": 4,
+            "bbox": {
+                "x1": 816,
+                "y1": 204,
+                "x2": 1024,
+                "y2": 306
+            },
+            "extracted_rgb": [
+                51,
+                52,
+                111
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 59.21,
+            "windspeed_mps": 2.5,
+            "confidence": "Moderate (Approximate)"
+        },
+        {
+            "region_id": "CELL_16",
+            "region_name": "Grid Cell (R3, C0)",
+            "cell_index": 16,
+            "row": 3,
+            "col": 0,
+            "bbox": {
+                "x1": 0,
+                "y1": 306,
+                "x2": 204,
+                "y2": 408
+            },
+            "extracted_rgb": [
+                66,
+                87,
+                137
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 69.67,
+            "windspeed_mps": 2.5,
+            "confidence": "Moderate (Approximate)"
+        },
+        {
+            "region_id": "CELL_17",
+            "region_name": "Grid Cell (R3, C1)",
+            "cell_index": 17,
+            "row": 3,
+            "col": 1,
+            "bbox": {
+                "x1": 204,
+                "y1": 306,
+                "x2": 408,
+                "y2": 408
+            },
+            "extracted_rgb": [
+                91,
+                105,
+                136
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 94.88,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_18",
+            "region_name": "Grid Cell (R3, C2)",
+            "cell_index": 18,
+            "row": 3,
+            "col": 2,
+            "bbox": {
+                "x1": 408,
+                "y1": 306,
+                "x2": 612,
+                "y2": 408
+            },
+            "extracted_rgb": [
+                81,
+                103,
+                145
+            ],
+            "matched_color_name": "Deep Blue",
+            "matched_rgb": [
+                20,
+                40,
+                160
+            ],
+            "color_distance": 88.97,
+            "windspeed_mps": 2.5,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_19",
+            "region_name": "Grid Cell (R3, C3)",
+            "cell_index": 19,
+            "row": 3,
+            "col": 3,
+            "bbox": {
+                "x1": 612,
+                "y1": 306,
+                "x2": 816,
+                "y2": 408
+            },
+            "extracted_rgb": [
+                115,
+                154,
+                155
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 102.6,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_20",
+            "region_name": "Grid Cell (R3, C4)",
+            "cell_index": 20,
+            "row": 3,
+            "col": 4,
+            "bbox": {
+                "x1": 816,
+                "y1": 306,
+                "x2": 1024,
+                "y2": 408
+            },
+            "extracted_rgb": [
+                114,
+                138,
+                164
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 101.86,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_21",
+            "region_name": "Grid Cell (R4, C0)",
+            "cell_index": 21,
+            "row": 4,
+            "col": 0,
+            "bbox": {
+                "x1": 0,
+                "y1": 408,
+                "x2": 204,
+                "y2": 512
+            },
+            "extracted_rgb": [
+                109,
+                122,
+                113
+            ],
+            "matched_color_name": "Dark Magenta/Purple",
+            "matched_rgb": [
+                130,
+                20,
+                120
+            ],
+            "color_distance": 104.37,
+            "windspeed_mps": 38.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_22",
+            "region_name": "Grid Cell (R4, C1)",
+            "cell_index": 22,
+            "row": 4,
+            "col": 1,
+            "bbox": {
+                "x1": 204,
+                "y1": 408,
+                "x2": 408,
+                "y2": 512
+            },
+            "extracted_rgb": [
+                111,
+                148,
+                153
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 102.73,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_23",
+            "region_name": "Grid Cell (R4, C2)",
+            "cell_index": 23,
+            "row": 4,
+            "col": 2,
+            "bbox": {
+                "x1": 408,
+                "y1": 408,
+                "x2": 612,
+                "y2": 512
+            },
+            "extracted_rgb": [
+                131,
+                161,
+                147
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 118.2,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_24",
+            "region_name": "Grid Cell (R4, C3)",
+            "cell_index": 24,
+            "row": 4,
+            "col": 3,
+            "bbox": {
+                "x1": 612,
+                "y1": 408,
+                "x2": 816,
+                "y2": 512
+            },
+            "extracted_rgb": [
+                109,
+                140,
+                167
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 95.76,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        },
+        {
+            "region_id": "CELL_25",
+            "region_name": "Grid Cell (R4, C4)",
+            "cell_index": 25,
+            "row": 4,
+            "col": 4,
+            "bbox": {
+                "x1": 816,
+                "y1": 408,
+                "x2": 1024,
+                "y2": 512
+            },
+            "extracted_rgb": [
+                121,
+                151,
+                155
+            ],
+            "matched_color_name": "Cyan / Light Blue",
+            "matched_rgb": [
+                40,
+                180,
+                220
+            ],
+            "color_distance": 107.83,
+            "windspeed_mps": 7.0,
+            "confidence": "Low / Potential Non-Data (Land/Cloud)"
+        }
+    ]
+}
