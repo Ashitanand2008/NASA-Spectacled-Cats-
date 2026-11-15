@@ -1,0 +1,6 @@
+# NASA Earth Information Center — Earth Jukebox
+# Unified Dependencies compatible with Python 3.10+ (including 3.14 on Windows)
+numpy>=2.0.0
+scipy>=1.14.0
+flask
+pillow>=10.0.0
