@@ -3,7 +3,7 @@ import base64
 import threading
 from pathlib import Path
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify,redirect
 
 
 # Project folder
@@ -33,7 +33,7 @@ pipeline_lock = threading.Lock()
 # HOME PAGE
 @app.route("/")
 def home():
-    return app.send_static_file("indexN.html")
+    return redirect("/index.html")
 
 
 # CHECK BACKEND CONNECTION
